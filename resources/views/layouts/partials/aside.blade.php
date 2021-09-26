@@ -1,4 +1,5 @@
 <aside class="main-sidebar sidebar-ligth-primary elevation-4">
+
     <!-- Brand Logo -->
     <a href="index3.html" class="brand-link">
         <img src="{{ asset('favicons/favicon.ico') }}" alt="te-ayudo Logo"
@@ -13,8 +14,9 @@
             <div class="image">
                 <img src="{{ asset('vendor/dist/img/user2-160x160.jpg') }}" class="img-circle elevation-2" alt="User Image">
             </div>
-            <div class="info">
+            <div class="pull-left info">
                 <a href="/perfil" class="d-block">Mi Perfil</a>
+                <i class="fa fa-circle text-success">Online</i> 
             </div>
         </div>
 
@@ -75,3 +77,5 @@
     </div>
     <!-- /.sidebar -->
 </aside>
+
+<!-- Left side column. contains the logo and sidebar -->
